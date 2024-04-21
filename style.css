@@ -1,0 +1,114 @@
+.wrapper {
+    height: 320px;
+    width: 232px;
+    border-style: outset;
+    border-color: LightGray;
+    border-width: 1px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.window-button-bar {
+    flex: 0.2;
+    background-color: #2B343AEE;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.window-button-bar>p {
+    line-height: 1;
+    font-size: 10px;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 5px 3px 5px 5px;
+    cursor: pointer;
+}
+.window-button-bar>p:hover{
+    filter: brightness(1.1);
+}
+.window-button-bar>p:active{
+    filter: brightness(0.8);
+}
+
+.close {
+    background-color: #ff5c5cEE;
+    color: #AB3F41FF;
+}
+
+.minimize {
+    background-color: #ffbd4cEE;
+    color: #B6883AFF;
+}
+
+.zoom {
+    background-color: #00ca56EE;
+    color: #0E9341FF;
+}
+
+.display-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 55px;
+    background-color: #2B343AEE;
+}
+
+.display {
+    font-size: 47px;
+    font-weight: 300;
+    color: #FFFFFFEE;
+    margin: 10px;
+}
+
+.button-row {
+    flex: 1;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    flex: 1;
+    border: none;
+    outline: none;
+    border-left: 0.01px #2F363EAA solid;
+    border-top: 0.01px #2F363EAA solid;
+    background-color: #656B6EEE;
+    color: #FFFFFFEE;
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #949C9FEE;
+}
+
+.operator {
+    padding-top: 5px;
+    font-size: 23px;
+    background-color: #FFA00AEE;
+}
+
+.operator:hover {
+    background-color: #B0731EEE;
+}
+
+.special {
+    font-size: 18px;
+    background-color: #41484FEE;
+}
+
+.special:hover {
+    background-color: #656B6EEE;
+}
+
+.zero {
+    flex: 30.5%;
+}
